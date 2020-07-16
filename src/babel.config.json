@@ -1,0 +1,23 @@
+{
+    "presets": [
+        [
+          "@babel/preset-env",
+          {
+              "modules":false,
+              "useBuiltIns":"usage",
+              "targets":{
+                "browsers":["> 1%", "last 2 versions", "not ie <= 8"]
+              }
+          }
+        ]
+    ],
+    "plugins": [
+        ["@babel/plugin-transform-runtime",
+          {
+            "corejs":2,
+            "version": "^7.10.2"
+          }
+        ],
+        "@babel/plugin-proposal-class-properties"
+    ]
+}
