@@ -30,7 +30,7 @@
   "homepage": "https://github.com/HuangDeFa/iBlog#readme",
   "dependencies": {
     "@babel/runtime-corejs2": "^7.10.2",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "element-ui": "^2.13.2",
     "mockjs": "^1.1.0",
     "vue": "^2.6.11",
